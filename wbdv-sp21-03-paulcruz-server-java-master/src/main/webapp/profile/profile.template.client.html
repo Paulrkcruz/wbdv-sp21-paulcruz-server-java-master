@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Editor</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="profile.style.client.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="col-6">
+    <a href="http://localhost:63342/index.html">
+        <i class="fas fa-home fa-2x"></i>
+    </a>
+</div>
+
+
+<div class="container">
+    <h1 class="color-skyblue">
+        Profile Editor
+    </h1>
+    <div class="alert alert-success" role="alert">
+        Profile successfully saved.
+    </div>
+    <div class="mb-3 row">
+        <label for="username"
+               class="col-sm-2 col-form-label">
+            Username
+        </label>
+        <div class="col-sm-10">
+            <input type="text"
+                   class="form-control"
+                   id="username"
+                   placeholder="Margaret"
+                   disabled>
+            <!--readonly--> <!--unable to change the username-->
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="phone"
+               class="col-sm-2 col-form-label">
+            Phone
+        </label>
+        <div class="col-sm-10">
+            <input type="text"
+                   class="form-control"
+                   id="phone"
+                   placeholder="(555)123-4324"
+                   title="Please Enter Your Phone Number">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="email"
+               class="col-sm-2 col-form-label">
+            Email
+        </label>
+        <div class="col-sm-10">
+            <input type="email"
+                   class="form-control"
+                   id="email"
+                   placeholder="marg@northeastern.edu"
+                   title="Please Type Your Email">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="role"
+               class="col-sm-2 col-form-label">
+            Role
+        </label>
+        <div class="col-sm-10">
+            <select id="role"
+                    class="form-control">
+                <option>Faculty</option>
+                <option>Student</option>
+                <option>Admin</option>
+            </select>
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="dob"
+               class="col-sm-2 col-form-label">
+            Date of Birth
+        </label>
+        <div class="col-sm-10">
+            <input type="date"
+                   class="form-control"
+                   id="dob">
+            <!--value="2345-12-21"-->
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <a class="btn btn-success btn-block">
+                Update
+            </a>
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <a class="btn btn-danger btn-block"
+               href="../index.html">
+                Logout
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
