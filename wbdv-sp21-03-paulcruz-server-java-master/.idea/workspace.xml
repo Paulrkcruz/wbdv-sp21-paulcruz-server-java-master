@@ -84,19 +84,6 @@
     <option name="openRunningConfigInTab" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in rest-api" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
       <method v="2" />
     </configuration>
@@ -167,6 +154,8 @@
       <workItem from="1612816469427" duration="184000" />
       <workItem from="1612816679673" duration="597000" />
       <workItem from="1612826402769" duration="1457000" />
+      <workItem from="1613945899074" duration="249000" />
+      <workItem from="1614001258131" duration="69000" />
     </task>
     <servers />
   </component>
