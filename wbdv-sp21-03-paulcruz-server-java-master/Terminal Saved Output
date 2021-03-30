@@ -1,0 +1,162 @@
+Last login: Thu Mar 25 18:51:36 on ttys000
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % nextflow run /Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf --helpMsg helpMsg
+N E X T F L O W  ~  version 20.10.0
+Launching `/Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf` [cheesy_davinci] - revision: aa31924581
+____________________________________________
+    Virus Genome Mapping Pipeline :  v1.0
+   ____________________________________________
+
+Pipeline Usage:
+
+   To run the pipeline, enter the following in the command line:
+
+       nextflow run Virus_Genome_Mapping_Pipeline/main.nf --reads PATH_TO_FASTQ --virus_fasta .PATH_TO_VIR_FASTA --virus_index PATH_TO_VIR_INDEX --outdir ./output
+
+
+   Valid CLI Arguments:
+     --reads                       Path to input fastq.gz folder).
+     --virus_fasta                 Path to fasta reference sequences (concatenated)
+     --virus_index                 Path to indexed virus reference databases
+     --singleEnd                   Specifies that the input fastq files are single end reads
+     --notrim                      Specifying --notrim will skip the adapter trimming step
+     --saveTrimmed                 Save the trimmed Fastq files in the the Results directory
+     --trimmomatic_adapters_file   Adapters index for adapter removal
+     --trimmomatic_mininum_length  Minimum length of reads
+  --withFastQC					Runs a quality control check on fastq files
+     --outdir                      The output directory where the results will be saved
+  --helpMsg						Displays help message in terminal
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % nextflow run /Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf --helpMsg helpMsg
+N E X T F L O W  ~  version 20.10.0
+Launching `/Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf` [high_joliot] - revision: 561be2c04d
+____________________________________________
+    Virus Genome Mapping Pipeline :  v1.0
+ ____________________________________________
+
+Pipeline Usage:
+
+   To run the pipeline, enter the following in the command line:
+
+       nextflow run Virus_Genome_Mapping_Pipeline/main.nf --reads PATH_TO_FASTQ --virus_fasta .PATH_TO_VIR_FASTA --virus_index PATH_TO_VIR_INDEX --outdir ./output
+
+
+   Valid CLI Arguments:
+     --reads                       Path to input fastq.gz folder).
+     --virus_fasta                 Path to fasta reference sequences (concatenated)
+     --virus_index                 Path to indexed virus reference databases
+     --singleEnd                   Specifies that the input fastq files are single end reads
+     --notrim                      Specifying --notrim will skip the adapter trimming step
+     --saveTrimmed                 Save the trimmed Fastq files in the the Results directory
+     --trimmomatic_adapters_file   Adapters index for adapter removal
+     --trimmomatic_mininum_length  Minimum length of reads
+  --withFastQC					Runs a quality control check on fastq files
+  --outdir                      The output directory where the results will be saved
+  --helpMsg						Displays help message in terminal
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % 
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % 
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % 
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % 
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % nextflow run /Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf --helpMsg helpMsg
+N E X T F L O W  ~  version 20.10.0
+Launching `/Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf` [small_stallman] - revision: 413731509e
+____________________________________________
+    Virus Genome Mapping Pipeline :  v1.0
+ ____________________________________________
+
+Pipeline Usage:
+
+   To run the pipeline, enter the following in the command line:
+
+       nextflow run Virus_Genome_Mapping_Pipeline/main.nf --reads PATH_TO_FASTQ --virus_fasta .PATH_TO_VIR_FASTA --virus_index PATH_TO_VIR_INDEX --outdir ./output
+
+
+   Valid CLI Arguments:
+     --reads                       Path to input fastq.gz folder).
+     --virus_fasta                 Path to fasta reference sequences (concatenated)
+     --virus_index                 Path to indexed virus reference databases
+     --singleEnd                   Specifies that the input fastq files are single end reads
+     --notrim                      Specifying --notrim will skip the adapter trimming step
+     --saveTrimmed                 Save the trimmed Fastq files in the the Results directory
+     --trimmomatic_adapters_file   Adapters index for adapter removal
+     --trimmomatic_mininum_length  Minimum length of reads
+  --withFastQC					Runs a quality control check on fastq files
+  --outdir                      The output directory where the results will be saved
+  --helpMsg						Displays help message in terminal
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % nextflow run /Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf --helpMsg helpMsg
+N E X T F L O W  ~  version 20.10.0
+Launching `/Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf` [distracted_raman] - revision: fa17d20c05
+____________________________________________
+    Virus Genome Mapping Pipeline :  Version 1.0
+ ____________________________________________
+
+Pipeline Usage:
+
+   To run the pipeline, enter the following in the command line:
+
+       nextflow run Virus_Genome_Mapping_Pipeline/main.nf --reads PATH_TO_FASTQ --virus_fasta .PATH_TO_VIR_FASTA --virus_index PATH_TO_VIR_INDEX --outdir PATH_TO_OUTPUT_DIR
+
+
+   Valid CLI Arguments:
+     --reads                       Path to input fastq.gz folder).
+     --virus_fasta                 Path to fasta reference sequences (concatenated)
+     --virus_index                 Path to indexed virus reference databases
+     --singleEnd                   Specifies that the input fastq files are single end reads
+     --notrim                      Specifying --notrim will skip the adapter trimming step
+     --saveTrimmed                 Save the trimmed Fastq files in the the Results directory
+     --trimmomatic_adapters_file   Adapters index for adapter removal
+     --trimmomatic_mininum_length  Minimum length of reads
+  --withFastQC					Runs a quality control check on fastq files
+  --outdir                      The output directory where the results will be saved
+  --helpMsg						Displays help message in terminal
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % nextflow run /Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf --helpMsg helpMsg
+N E X T F L O W  ~  version 20.10.0
+Launching `/Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf` [sleepy_perlman] - revision: 7cf8680cee
+__________________________________________________
+    Virus Genome Mapping Pipeline :  Version 1.0
+ __________________________________________________
+
+Pipeline Usage:
+
+   To run the pipeline, enter the following in the command line:
+
+       nextflow run Virus_Genome_Mapping_Pipeline/main.nf --reads PATH_TO_FASTQ --virus_fasta .PATH_TO_VIR_FASTA --virus_index PATH_TO_VIR_INDEX --outdir PATH_TO_OUTPUT_DIR
+
+
+   Valid CLI Arguments:
+     --reads                       Path to input fastq.gz folder).
+     --virus_fasta                 Path to fasta reference sequences (concatenated)
+     --virus_index                 Path to indexed virus reference databases
+     --singleEnd                   Specifies that the input fastq files are single end reads
+     --notrim                      Specifying --notrim will skip the adapter trimming step
+     --saveTrimmed                 Save the trimmed Fastq files in the the Results directory
+     --trimmomatic_adapters_file   Adapters index for adapter removal
+     --trimmomatic_mininum_length  Minimum length of reads
+  --withFastQC					Runs a quality control check on fastq files
+  --outdir                      The output directory where the results will be saved
+  --helpMsg						Displays help message in terminal
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % nextflow run /Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf --helpMsg helpMsg
+N E X T F L O W  ~  version 20.10.0
+Launching `/Users/kurtiscruz/Downloads/CURRENT/Virus_Genome_Mapping_Pipeline/main.nf` [goofy_coulomb] - revision: 09f40248d7
+__________________________________________________
+    Virus Genome Mapping Pipeline :  Version 1.0
+__________________________________________________
+
+Pipeline Usage:
+
+   To run the pipeline, enter the following in the command line:
+
+       nextflow run Virus_Genome_Mapping_Pipeline/main.nf --reads PATH_TO_FASTQ --virus_fasta .PATH_TO_VIR_FASTA --virus_index PATH_TO_VIR_INDEX --outdir PATH_TO_OUTPUT_DIR
+
+
+   Valid CLI Arguments:
+     --reads                       Path to input fastq.gz folder).
+     --virus_fasta                 Path to fasta reference sequences (concatenated)
+     --virus_index                 Path to indexed virus reference databases
+     --singleEnd                   Specifies that the input fastq files are single end reads
+     --notrim                      Specifying --notrim will skip the adapter trimming step
+     --saveTrimmed                 Save the trimmed Fastq files in the the Results directory
+     --trimmomatic_adapters_file   Adapters index for adapter removal
+     --trimmomatic_mininum_length  Minimum length of reads
+  --withFastQC					Runs a quality control check on fastq files
+  --outdir                      The output directory where the results will be saved
+  --helpMsg						Displays help message in terminal
+(base) kurtiscruz@Kurtiss-MacBook-Pro Virus_Genome_Mapping_Pipeline % 
